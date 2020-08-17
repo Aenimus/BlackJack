@@ -5,7 +5,7 @@ for r in ["Ten", "Jack", "Queen", "King"]:
     values[r] = 10
 values["Ace"] = 11
 
-class Bj():
+class Blackjack():
     def __init__(self):
         self.values = values
         self.original_deck = ["2", "3", "4", "5", "6", "7", "8", "9", "Ten", "Jack", "Queen", "King", "Ace"] * 4
@@ -122,5 +122,5 @@ class Bj():
                 print("Thanks for playing!")
                 break
 
-bj = Bj()
-bj.play()
+blackjack = Blackjack()
+blackjack.play()
